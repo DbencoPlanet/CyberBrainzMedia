@@ -43,7 +43,7 @@
                 <div class="dibiz-responsive-menu">
                     <div class="logo">
                         <a class="" asp-area="" asp-controller="Home" asp-action="Index">
-                            <img src="~/asset/img/logo.png" alt="logo">
+                            <img src="~/asset/img/logo.png" height="40" width="126" alt="logo">
                         </a>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                        <img src="~/asset/img/logo.png" alt="logo">
+                        <img src="~/asset/img/logo.png" height="40" width="126" alt="logo">
                     </a>
 
                     <div class="collapse navbar-collapse mean-menu" style="display: block;">
@@ -80,7 +80,8 @@
 
 
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Products <i class=""></i></a>
+                                <a class="nav-link" asp-area="" asp-controller="Products" asp-action="Index">Products <i class=""></i></a>
+                                @*<a href="#" class="nav-link">Products <i class=""></i></a>*@
 
                             </li>
 
