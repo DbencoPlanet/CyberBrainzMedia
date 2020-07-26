@@ -30,7 +30,7 @@
     @RenderSection("style", required: false)
     <title>@ViewData["Title"] - CyberBrainzMedia:Awesome in Diversity</title>
 
-    <link rel="icon" type="image/png" href="~/asset/img/logo.png">
+    <link rel="icon" type="image/png" href="~/asset/img/logo.jpg">
 </head>
 <body>
 
@@ -43,7 +43,7 @@
                 <div class="dibiz-responsive-menu">
                     <div class="logo">
                         <a class="" asp-area="" asp-controller="Home" asp-action="Index">
-                            <img src="~/asset/img/logo.png" height="40" width="126" alt="logo">
+                            <img src="~/asset/img/logo.jpg" height="40" width="126" alt="logo">
                         </a>
                     </div>
                 </div>
@@ -90,7 +90,9 @@
 
                             </li>
 
-                            <li class="nav-item"><a href="https://templates.envytheme.com/dibiz/default/contact.html" class="nav-link">Contact</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="About" asp-action="Contact">Contact</a>
+                            </li>
                             @*<li class="nav-item"><a href="#" class="nav-link">Call Now</a></li>*@
                             <li class="nav-item"><a href="https://templates.envytheme.com/dibiz/default/contact.html" class="nav-link">Login</a></li>
 
@@ -204,7 +206,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">
-                            <img src="~/asset/img/white-logo.png" alt="logo">
+                            <img src="~/asset/img/logo.jpg" alt="logo">
                         </a>
                         <p>
                             CybErbrainz Media is a creative technology and media company saddle with the responsibility of helping individuals, schools, government firms, cooperate bodies and various businesses and industries grow with specialties in Information Technology and Media services.
